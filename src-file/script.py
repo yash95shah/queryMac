@@ -5,7 +5,7 @@ import os
 API_KEY=os.environ['API_K']
 print ("**************************************************")
 try:
-    mac_id=input("Enter the mac-id that you want to search for -") 
+    mac_id=input("Enter the mac-id that you want to search for (delimiters like ':','.' or no delimiters)- ") 
 except EOFError as e:
     print (e)
 
