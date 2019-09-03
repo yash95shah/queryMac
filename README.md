@@ -2,7 +2,7 @@ MAC Address Lookup API
 _____________________
 
 
-This repository will enable users to look-up the name of the company by entering the mac-id as a parameter via the command line. 
+This will enable users to look-up the name of the company by entering the mac-id as a parameter via the command line. 
 The mac-id is queried against https://macaddress.io.
 Go to the folder src-file ---
 
