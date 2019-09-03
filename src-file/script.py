@@ -3,6 +3,7 @@ import requests
 import os
 
 API_KEY=os.environ['API_K']
+print ("**************************************************")
 try:
     mac_id=input("Enter the mac-id that you want to search for -") 
 except EOFError as e:
@@ -14,3 +15,4 @@ try:
     print ("The mac id belongs to: - "+ st['vendorDetails']['companyName'])
 except KeyError as k:
     print (k)
+print ("**************************************************")
